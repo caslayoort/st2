@@ -15,6 +15,9 @@ Fixed
 Added
 ~~~~~
 
+* Minor updates for RockyLinux. 
+  Contributed by Amanda McGuinness (@amanda11 intive)
+
 * Added st2 API get action parameters by ref. #5509
 
   API endpoint ``/api/v1/actions/views/parameters/{action_id}`` accepts ``ref_or_id``.
@@ -55,6 +58,10 @@ Added
 * Added support for multiple LDAP hosts to st2-auth-ldap. #5535, https://github.com/StackStorm/st2-auth-ldap/pull/100
 
   Contributed by @ktyogurt
+
+* Implemented graceful shutdown for action runner. Enabled ``graceful_shutdown`` in ``st2.conf`` file. #5428
+
+  Contributed by @khushboobhatia01
 
 Fixed
 ~~~~~
