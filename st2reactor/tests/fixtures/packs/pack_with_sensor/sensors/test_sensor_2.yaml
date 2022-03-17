@@ -1,6 +1,0 @@
----
-  class_name: "TestSensorDisabled"
-  entry_point: "test_sensor.py"
-  description: "Test sensor"
-  poll_interval: 10
-  enabled: false
