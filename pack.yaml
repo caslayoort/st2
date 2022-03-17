@@ -1,6 +1,6 @@
 ---
-name: examples
-description: Example sensors, triggers, actions and rules.
+name: test
+description: Example sensors.
 version: 0.2.1
 author : StackStorm, Inc.
 email : info@stackstorm.com
