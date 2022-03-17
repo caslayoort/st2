@@ -1,7 +1,0 @@
----
-description: Reads env vars.
-enabled: true
-entry_point: env_reader.sh
-name: env_reader
-parameters: {}
-runner_type: "local-shell-script"

@@ -1,6 +1,0 @@
----
-name: orquesta-task-retry-exhausted
-description: A workflow demonstrating what happens when task retries are exhausted.
-runner_type: orquesta
-entry_point: workflows/orquesta-task-retry-exhausted.yaml
-enabled: true
